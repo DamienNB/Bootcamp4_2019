@@ -1,7 +1,8 @@
 body {
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: "Times New Roman", Times, serif;
+	background-color: #80BE63;
 }
 
 /* ##### general ##### */
@@ -50,14 +51,27 @@ td:hover {
 /* ##### Columns ##### */
 .column1 {
 	float: left;
-	width: 50%;
+	width: 25%;
 	padding: 10px;
+	background-color: #E28F41;
 }
 .column2 {
 	float: left;
-	width: 50%;
+	width: 25%;
 	padding: 20px;
-	background-color: #ccdef9;
+	background-color: #6C9AC3;
+}
+.column3 {
+	float: left;
+	width: 25%;
+	padding: 10px;
+	background-color: #E28F41;
+}
+.column4 {
+	float: left;
+	width: 25%;
+	padding: 20px;
+	background-color: #6C9AC3;
 }
 
 /* ##### Rows ##### */
